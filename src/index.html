@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/my-styles.css" />
+    <script
+      src="https://kit.fontawesome.com/8c377d1692.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Big Friend</title>
+  </head>
+  <body class="font-serif">
+    <!--NavBar-->
+    <nav class="fixed w-full z-30 top-0 text-white bg-white shadow">
+      <div
+        class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2"
+      >
+        <div class="pl-4 flex items-center">
+          <a
+            class="no-underline hover:no-underline font-bold text-2xl lg:text-4xl text-gray-800"
+            href="#"
+          >
+            <svg
+              class="h-8 fill-current inline"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512.005 512.005"
+            >
+              <path
+                class="elephant"
+                d="M488.909,418.392c-34.84-27.219-3.266-93.632-3.266-93.632c63.147-161.134-46.108-242.307-64.788-252.887
+                c-38.033-21.541-128.497-42.648-174.166,15.319c-12.916,16.394-8.599,36.754-2.654,50.984
+                c15.302,36.618,56.436,69.544,91.693,73.388c10.054,1.123,17.377-1.182,22.336-6.958c15.761-18.347,7.451-66.618,2.909-83.672
+                c-1.233-4.644,1.531-9.416,6.184-10.658c1.341-0.356,2.664-0.3,3.938-0.041c3.142,0.637,5.842,2.909,6.72,6.225
+                c1.905,7.179,17.956,70.998-6.532,99.501c-5.401,6.286-15.004,13.286-30.97,13.286c-2.05,0-4.21-0.119-6.473-0.366
+                c-41.593-4.542-88.095-41.432-105.88-83.995c-4.475-10.708-6.707-21.065-6.948-30.835c-99.728,0-213.575,55.596-220.991,155.597
+                c-0.238,3.208,1.735,6.167,4.789,7.179c3.054,1.021,6.413-0.169,8.14-2.882c6.124-9.616,13.75-20.027,21.325-26.585
+                c1.087,15.749,5.871,30.796,14.136,44.532c16.552,27.508,25.39,59.098,25.39,91.198l0.158,59.253
+                c0.843,7.261,17.995,13.065,39.181,13.065c21.194,0,38.346-5.804,39.19-13.065l0.158-38.455c0-10.096,4.21-19.742,11.61-26.616
+                c7.4-6.873,17.316-9.628,27.413-9.628c6.263,0,19.079,0.009,19.828,0c9.688-0.101,19.019,4.337,25.899,11.159
+                c6.89,6.822,10.761,16.11,10.761,25.799l0.158,37.74c0.843,7.261,17.994,13.065,39.181,13.065c21.194,0,38.346-5.804,39.19-13.065
+                l0.158-33.215c0-98.599,72.254-142.598,80.839-147.814c42.606-25.886,23.68,52.557,23.68,52.557
+                c-28.307,88.188,37.017,128.472,37.017,128.472l0.293-0.339c0.204,0.208,0.262,0.544,0.498,0.722
+                c4.184,3.155,11.799,0.128,16.995-6.779c4.792-6.34,5.668-13.564,2.569-17.171L488.909,418.392z"
+              ></path>
+            </svg>
+            BIG FRIEND
+          </a>
+        </div>
+
+        <label for="menu-toggle" class="cursor-pointer lg:hidden block pr-4">
+          <svg
+            class="fill-current text-gray-900"
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+          >
+            <title>menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+          </svg>
+        </label>
+        <input class="hidden" type="checkbox" id="menu-toggle" />
+
+        <div
+          class="hidden w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block mt-2 lg:mt-0 lg:bg-transparent text-black p-4 lg:p-0 z-20 bg-white"
+          id="menu"
+        >
+          <ul class="list-reset lg:flex justify-end flex-1 items-center">
+            <li class="mr-3">
+              <a
+                class="inline-block text-lg text-black font-bold hover:text-gray-800 border-b-2 border-transparent hover:border-base-orange py-2 px-4"
+                href="#"
+                >Blog</a
+              >
+            </li>
+            <li class="mr-3">
+              <a
+                class="inline-block text-lg text-black font-bold hover:text-gray-800 border-b-2 border-transparent hover:border-base-orange py-2 px-4"
+                href="#"
+                >About</a
+              >
+            </li>
+            <li class="mr-3">
+              <a
+                class="inline-block text-lg text-black font-bold hover:text-gray-800 border-b-2 border-transparent hover:border-base-orange py-2 px-4"
+                href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
+    </nav>
+    <!--End NavBar-->
+
+    <!--Hero-->
+    <div class="back-fixed relative">
+      <div class="md:w-2/4 h-screen relative">
+        <div
+          class="text-white ml-8 md:ml-16 px-8 md:px-0 absolute bottom-0 pb-16"
+        >
+          <p class="text-6xl">
+            Adoptar
+          </p>
+          <p class="text-2xl">
+            La adopción es una alternativa que a la hora de adquirir un animal
+            de compañía beneficia a todos: a la familia, a las entidades de
+            protección animal y, por supuesto, al propio animal.
+          </p>
+        </div>
+      </div>
+
+      <div class="ml-8 md:ml-16 pb-10">
+        <a
+          class="bg-base-orange hover:bg-plus-orange text-white text-xl tracking-widest font-bold rounded-full cursor-pointer py-4 px-10 inline-block mb-10 md:mb-0"
+        >
+          ADOPTAR
+        </a>
+        <a
+          class="bg-base-transparent hover:bg-base-orange text-white text-xl tracking-widest font-bold rounded-full cursor-pointer py-4 px-10 inline-block mb-24 md:ml-8"
+        >
+          DONACIÓN
+        </a>
+      </div>
+
+      <div class="shape"></div>
+    </div>
+    <!--End Hero-->
+
+    <div class="text-center pt-20">
+      <p class="text-2xl text-gray-600">SÉ PARTE</p>
+      <h4 class="text-5xl">
+        Salva a un animal
+      </h4>
+    </div>
+
+    <div class="md:flex w-10/12 m-auto pt-12">
+      <div class="px-8 mb-10">
+        <h4 class="text-xl font-bold pb-5 tracking-widest">
+          ADOPTAR UNA MASCOTA
+        </h4>
+        <p class="leading-8 text-justify mb-6 text-lg">
+          Los perros que han vivido en protectoras conocen lo que es vivir en la
+          calle y no tener comida. Cuando son adoptados, es tal su gratitud, que
+          se convierte en el amigo más fiel del mundo. El amor incondicional
+          será una de las cosas que te enseñará. Él conoce mejor que nadie el
+          valor del compromiso y la lealtad. Pase lo que pase, siempre tendrá
+          amor que darte.
+        </p>
+        <a
+          class="bg-base-orange hover:bg-plus-orange text-white text-xl font-bold rounded-full cursor-pointer py-2 px-5 inline-block"
+        >
+          VER MÁS
+        </a>
+      </div>
+      <div class="px-8 mb-10">
+        <h4 class="text-xl font-bold pb-5 tracking-widest">
+          HAZ UNA DONACIÓN
+        </h4>
+        <p class="leading-8 text-justify mb-6 text-lg">
+          En verano cada año miles de perros son abandonados. Una
+          irresponsabilidad enorme por parte de los dueños que no piensan antes
+          de acoger a un perro en la cantidad de necesidades y atenciones que
+          van a necesitar durante mucho tiempo. Hay que acabar con la tragedia
+          del abandono y para ello es importantísimo la tarea incesante de
+          concienciación y de ayuda a los albergues y refugios.
+        </p>
+        <a
+          class="bg-base-orange hover:bg-plus-orange text-white text-xl font-bold rounded-full cursor-pointer py-2 px-5 inline-block"
+        >
+          DONACIÓN
+        </a>
+      </div>
+    </div>
+
+    <div class="relative back-gradiant pb-64">
+      <div class="md:w-2/4 mx-20 p-10 rounded-lg bg-white shadow-xl">
+        <h4 class="text-2xl font-bold pt-20">Próximos eventos:</h4>
+        <div class="pt-5 flex">
+          <div>
+            <i class="far fa-calendar fa-lg text-plus-orange"></i>
+          </div>
+          <div class="ml-5">
+            <h4 class="text-lg font-bold">JUNIO 24 - MERCADILLO SOLIDARIO</h4>
+            <div>
+              La Gatoteca organiza este miércoles 24 de junio junto a la
+              asociación Laddra un Mercadillo Solidario. El mercadillo estará
+              situado en la
+              <span class="font-bold"
+                >calle Argumosa, Nº28, de 11:00 a 20:00</span
+              >
+              ¡No te lo pierdas!
+            </div>
+          </div>
+        </div>
+        <div class="pt-5 flex">
+          <div>
+            <i class="far fa-calendar fa-lg text-plus-orange"></i>
+          </div>
+          <div class="ml-5">
+            <h4 class="text-lg font-bold">JUNIO 24 - MERCADILLO SOLIDARIO</h4>
+            <div>
+              La Gatoteca organiza este miércoles 24 de junio junto a la
+              asociación Laddra un Mercadillo Solidario. El mercadillo estará
+              situado en la
+              <span class="font-bold"
+                >calle Argumosa, Nº28, de 11:00 a 20:00</span
+              >
+              ¡No te lo pierdas!
+            </div>
+          </div>
+        </div>
+        <div class="pt-5 flex">
+          <div>
+            <i class="far fa-calendar fa-lg text-plus-orange"></i>
+          </div>
+          <div class="ml-5">
+            <h4 class="text-lg font-bold">JUNIO 24 - MERCADILLO SOLIDARIO</h4>
+            <div>
+              La Gatoteca organiza este miércoles 24 de junio junto a la
+              asociación Laddra un Mercadillo Solidario. El mercadillo estará
+              situado en la
+              <span class="font-bold"
+                >calle Argumosa, Nº28, de 11:00 a 20:00</span
+              >
+              ¡No te lo pierdas!
+            </div>
+          </div>
+        </div>
+        <div class="pt-5 flex">
+          <div>
+            <i class="far fa-calendar fa-lg text-plus-orange"></i>
+          </div>
+          <div class="ml-5">
+            <h4 class="text-lg font-bold">JUNIO 24 - MERCADILLO SOLIDARIO</h4>
+            <div>
+              La Gatoteca organiza este miércoles 24 de junio junto a la
+              asociación Laddra un Mercadillo Solidario. El mercadillo estará
+              situado en la
+              <span class="font-bold"
+                >calle Argumosa, Nº28, de 11:00 a 20:00</span
+              >
+              ¡No te lo pierdas!
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="shape-2"></div>
+    </div>
+
+    <div class="bg-base-black py-32">
+      <h4 class="text-center text-4xl text-white">¿Que hacemos?</h4>
+
+      <div class="md:flex w-10/12 m-auto text-center">
+        <div class="px-8 py-6">
+          <p><i class="fas text-plus-orange fa-paw text-6xl"></i></p>
+          <h4 class="text-2xl text-white font-bold">
+            Lorem ipsum dolor sit
+          </h4>
+          <p class="leading-8 text-white">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud
+          </p>
+        </div>
+        <div class="px-8 py-6">
+          <p><i class="fas text-plus-orange fa-paw text-6xl"></i></p>
+          <h4 class="text-2xl text-white font-bold">
+            Lorem ipsum dolor sit
+          </h4>
+          <p class="leading-8 text-white">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud
+          </p>
+        </div>
+      </div>
+      <div class="md:flex w-10/12 m-auto text-center">
+        <div class="px-8 py-6">
+          <p><i class="fas text-plus-orange fa-paw text-6xl"></i></p>
+          <h4 class="text-2xl text-white font-bold">
+            Lorem ipsum dolor sit
+          </h4>
+          <p class="leading-8 text-white">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud
+          </p>
+        </div>
+        <div class="px-8 py-6">
+          <p><i class="fas text-plus-orange fa-paw text-6xl"></i></p>
+          <h4 class="text-2xl text-white font-bold">
+            Lorem ipsum dolor sit
+          </h4>
+          <p class="leading-8 text-white">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="midle-back flex justify-center">
+      <div
+        class="w-4/5 rounded-lg shadow-xl bg-base-orange text-white text-center py-32"
+      >
+        <h4 class="text-4xl text-white font-bold">
+          Lorem ipsum dolor sit
+        </h4>
+        <div class="text-xl py-5 px-16">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore.
+        </div>
+      </div>
+    </div>
+
+    <div class="w-full relative py-32">
+      <h4 class="text-6xl text-center pt-16">Animales</h4>
+
+      <div
+        class="flex flex-col items-center align-middle justify-center md:flex-row mb-12"
+      >
+        <div
+          class="max-w-sm md:max-w-xs rounded overflow-hidden shadow-lg mx-10 my-10"
+        >
+          <img
+            class="w-full rounded"
+            src="./assets/cat-02.jpg"
+            alt="Sunset in the mountains"
+          />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Moira</div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="max-w-sm md:max-w-xs rounded overflow-hidden shadow-lg mx-10 my-10"
+        >
+          <img
+            class="w-full rounded"
+            src="./assets/card-top.jpg"
+            alt="Sunset in the mountains"
+          />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Sunset</div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="max-w-sm md:max-w-xs rounded overflow-hidden shadow-lg mx-10 my-10"
+        >
+          <img
+            class="w-full rounded"
+            src="./assets/cat-03.jpg"
+            alt="Sunset in the mountains"
+          />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Covid</div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="flex flex-col items-center align-middle justify-center md:flex-row"
+      >
+        <div
+          class="max-w-sm md:max-w-xs rounded overflow-hidden shadow-lg mx-10 my-10"
+        >
+          <img
+            class="w-full rounded"
+            src="./assets/card-top.jpg"
+            alt="Sunset in the mountains"
+          />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Sunset</div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="max-w-sm md:max-w-xs rounded overflow-hidden shadow-lg mx-10 my-10"
+        >
+          <img
+            class="w-full rounded"
+            src="./assets/cat-01.jpg"
+            alt="Sunset in the mountains"
+          />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Isidoro</div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="max-w-sm md:max-w-xs rounded overflow-hidden shadow-lg mx-10 my-10"
+        >
+          <img
+            class="w-full rounded"
+            src="./assets/card-top.jpg"
+            alt="Sunset in the mountains"
+          />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Sunset</div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="shape-2"></div>
+    </div>
+
+    <div class="back-foot pb-20">
+      <div class="py-20 flex flex-col items-center">
+        <h4 class="text-5xl text-white text-center">
+          ¿Quieres involucrarte?
+        </h4>
+        <form class="w-full flex flex-col items-center" action="">
+          <input
+            class="mt-10 bg-base-transparent text-white text-center placeholder-white w-5/12 rounded-full py-4 focus:outline-none focus:bg-white focus:placeholder-black focus:text-black cursor-pointer"
+            placeholder="Email"
+            type="text"
+          />
+          <button
+            class="mt-5 mt-10 bg-base-orange hover:bg-plus-orange text-center text-white w-5/12 rounded-full py-4"
+          >
+            Enviar
+          </button>
+        </form>
+      </div>
+      <div class="flex justify-center mt-16">
+        <a
+          class="text-white bg-base-transparent rounded-full h-20 w-20 flex items-center justify-center cursor-pointer mx-5 hover:bg-base-orange hover:text-base-transparent"
+        >
+          <i class="fab fa-2x fa-facebook-f"></i>
+        </a>
+        <a
+          class="text-white bg-base-transparent rounded-full h-20 w-20 flex items-center justify-center cursor-pointer mx-5 hover:bg-base-orange hover:text-base-transparent"
+        >
+          <i class="fab fa-2x fa-twitter"></i>
+        </a>
+        <a
+          class="text-white bg-base-transparent rounded-full h-20 w-20 flex items-center justify-center cursor-pointer mx-5 hover:bg-base-orange hover:text-base-transparent"
+        >
+          <i class="fab fa-2x fa-instagram"></i>
+        </a>
+        <a
+          class="text-white bg-base-transparent rounded-full h-20 w-20 flex items-center justify-center cursor-pointer mx-5 hover:bg-base-orange hover:text-base-transparent"
+        >
+          <i class="fab fa-2x fa-youtube"></i>
+        </a>
+      </div>
+    </div>
+    <div class="bg-black text-gray-500">
+      nananana BATMAN!
+    </div>
+  </body>
+</html>
